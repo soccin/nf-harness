@@ -40,7 +40,7 @@ echo nextflow run $SDIR/pipeline-dir/main.nf \
     -ansi-log $ANSI_LOG \
     -resume \
     -profile singularity \
-    -c $SDIR/lsf_juno \
+    -c $SDIR/conf/lsf_juno.config \
     ...
 #:END
 
